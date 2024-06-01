@@ -1,0 +1,108 @@
+/* 
+<!-- 
+Proyek UAS Lab - PW IBDA2012
+Deffrand Farera
+222201312
+-->
+*/
+
+* {
+  font-family: sans-serif, "Poppins";
+  color: rgb(200, 200, 200);
+}
+
+body {
+  background-color: black;
+}
+
+.logo {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
+  margin-bottom: 32px;
+  font-size: 120px;
+  width: fit-content;
+}
+
+.btn-primary {
+  background-color: rgb(20, 20, 20);
+  transition: 0.2s all ease-in-out;
+}
+.btn-primary:hover {
+  background-color: rgb(30, 30, 30);
+  transition: 0.2s all ease-in-out;
+}
+button,
+.btn {
+  outline: none;
+  border: none;
+}
+
+#signup-body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/showroom.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.main-index {
+  background: linear-gradient(to top, black, transparent),
+    url("./assets/showroom.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-item i {
+  transform: translateX(50%);
+  position: absolute;
+  right: 50%;
+  top: 16%;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to top, black, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.garage-door {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/garage_door.jpg");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+.garage-door .logo {
+  background: linear-gradient(to top, black, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+input {
+  color-scheme: dark;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#filter {
+  transform: translateX(-100%);
+  transition: all 0.3s ease-in-out;
+}
